@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-100 text-slate-800 antialiased;
+}
+
+button {
+  @apply cursor-pointer;
+}
+
+input,
+select,
+textarea {
+  @apply outline-none;
+}
